@@ -1,0 +1,64 @@
+a {
+  color: #666;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+a:hover {
+  color: #c81623;
+}
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+}
+#header a {
+  float: left;
+  margin-left: 15px;
+}
+ul {
+  float: right;
+  margin-right: 15px;
+}
+ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+#banner {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#banner .image {
+  width: 100%;
+  height: auto;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.posts article {
+  width: 30%;
+}
+#footer p {
+  margin-top: 20px;
+  width: 100%;
+}
+#footer .copyright {
+  display: inline-block;
+  text-align: center;
+}
+p {
+  width: 100%;
+  margin-left: 0px;
+  text-align: center;
+}
